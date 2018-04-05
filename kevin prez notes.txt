@@ -1,0 +1,39 @@
+-- la_condenser.py
+
+*First we take original crime data file (25+ columns, 2010-2018)
+   *columns include: victim info (demog.), multiple crime categories, address, etc.
+
+*Filter years to 2015-17
+
+*Keep only 6 columns (of relative importance)
+
+
+-- LA_Cleanup_Kevin.ipynb
+
+*Load the moderately-cleaned CSV
+
+*Further narrow down to 3 columns
+
+*Load LUT for crime types
+
+*Merge, add Year column
+
+*Save that to new CSV
+
+
+-- LA_Weather_1_Kevin.ipynb
+
+*Load raw weather data (column labels in Excel, fillna "Clear")
+  *(and also crime CSV we just exported)
+
+*Group Crime by date and (broad) category, pivot
+
+*Reformat date stamp w/ pd.to_datetime (shown with Weather)
+
+*(same for Chicago, including crime cleanup)
+
+*Now condense weather to Date, Temp, Event
+
+*Create "Total" column for crime
+
+*Merge the two (shown for Chicago)
