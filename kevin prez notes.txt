@@ -1,5 +1,7 @@
 -- la_condenser.py
 
+::Huge file size (>gig each, 25+col, many years), trim down to few categories
+
 *First we take original crime data file (25+ columns, 2010-2018)
    *columns include: victim info (demog.), multiple crime categories, address, etc.
 
@@ -9,6 +11,8 @@
 
 
 -- LA_Cleanup_Kevin.ipynb
+
+::This is the code I used to clean the LA data (crime types)
 
 *Load the moderately-cleaned CSV
 
@@ -22,6 +26,8 @@
 
 
 -- LA_Weather_1_Kevin.ipynb
+
+::Focus on Pivot
 
 *Load raw weather data (column labels in Excel, fillna "Clear")
   *(and also crime CSV we just exported)
