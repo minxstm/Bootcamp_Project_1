@@ -37,8 +37,8 @@ We selected two cities of similar size to review.  We chose one city with relati
 
 City1 | Population (2016) | Crime Source | Weather Source
 --- | --- | --- | ---
-Chicago | 2,704,958[CITATION WkC \l 1033] | Data.gov | Wunderground.com
-Los Angeles | 3,976,322[CITATION WKLA \l 1033] | Kaggle.com | Wunderground.com
+Chicago | 2,704,958 | Data.gov | Wunderground.com
+Los Angeles | 3,976,322 | Kaggle.com | Wunderground.com
 
 ### Data collection
 
@@ -52,7 +52,8 @@ After crime data was retrieved form the various sources, it was modified program
 
 Our preferred data would have been Open Weather Map(.com); however due to limitations of collecting historical data an alternate website was selected.  The alternate site selected wunderground.com, does not provide its users a mean to download data or collect via an API.  Instead the team generated the data by selecting the testing period and copying the generated data from the website and pasted into an Excel file.  The manual collection of data required some manipulation in Excel to change the individual days into actual dates.
 
-![Excel worksheets](Visualizations/excel.png)
+<!-- ![Excel worksheets](Visualizations/excel.png) -->
+<img src="Visualizations/excel.png" width="600px">
 
 # Data analysis
 
@@ -100,7 +101,7 @@ Figure 1 - Chicago Crime type by Temperature
 
 Viewing Figure 1, we can see a clear upward movement for both the Property and Violent crime types.  If we isolate these two crime types (see Figure 2 - Chicago&#39;s most effected types of crime), we see more dramatic correlation.
 
-![](Visualizations/chicago_v_p.png)
+<img src="Visualizations/chicago_v_p.png" width="400px">
 
 Figure 2 - Chicago&#39;s most effected types of crime
 
@@ -112,7 +113,7 @@ Figure 3 - Los Angeles Crime type by Temperature
 
 However, after isolating the two highest volume crime types, we can only see a positive correlation with one type: Violent.
 
-![](Visualizations/la_v_p.png)
+<img src="Visualizations/la_v_p.png" width="400px">
 
 Figure 4 - Los Angeles most effected types of crime
 
